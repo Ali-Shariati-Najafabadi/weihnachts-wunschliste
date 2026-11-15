@@ -1,0 +1,26 @@
+/* Print view: only the wish sheets (#print-sheet) are printed. */
+@page { size: A4; margin: 18mm; }
+
+body { background: #fff !important; color: #000 !important; display: block; min-height: 0; }
+body > *:not(#print-sheet) { display: none !important; }
+#print-sheet { display: block !important; }
+
+.sheet { break-after: page; page-break-after: always; font-family: ui-serif, Georgia, "Times New Roman", serif; color: #000; }
+.sheet:last-child { break-after: auto; page-break-after: auto; }
+.sheet-head { text-align: center; border-bottom: 3px double #14513a; padding-bottom: 12pt; margin-bottom: 18pt; }
+.sheet-eyebrow { margin: 0 0 4pt; font-size: 11pt; letter-spacing: 0.12em; text-transform: uppercase; color: #14513a; }
+.sheet-head h1 { margin: 0; font-size: 30pt; color: #a8222b; }
+.sheet-group { margin: 4pt 0 0; font-size: 11pt; color: #444; }
+.sheet-wishes { list-style: none; margin: 0; padding: 0; }
+.sheet-wishes li { display: flex; gap: 10pt; padding: 8pt 0; border-bottom: 0.5pt solid #bbb; break-inside: avoid; page-break-inside: avoid; }
+.sheet-box { flex: none; width: 12pt; height: 12pt; border: 1.2pt solid #14513a; margin-top: 3pt; }
+.sheet-wish { flex: 1; min-width: 0; }
+.sheet-wish p { margin: 0; }
+.sheet-title { font-size: 13pt; }
+.sheet-prio, .sheet-price { font-size: 10.5pt; color: #333; }
+.sheet-note { font-size: 11pt; margin-top: 2pt !important; white-space: pre-wrap; overflow-wrap: anywhere; }
+.sheet-url { font: 9pt ui-monospace, Menlo, Consolas, monospace; color: #333; overflow-wrap: anywhere; margin-top: 2pt !important; }
+.sheet-empty { text-align: center; font-style: italic; color: #555; }
+.sheet-foot { margin-top: 20pt; text-align: center; font-size: 12pt; color: #14513a; }
+.sheet-foot::before { content: "★ "; }
+.sheet-foot::after { content: " ★"; }

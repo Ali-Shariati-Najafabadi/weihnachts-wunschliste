@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Tannenbaum">
+  <rect width="64" height="64" rx="14" fill="#14513a"/>
+  <path d="M32 9l5 7h-3l6 8h-4l7 9h-5l8 10H12l8-10h-5l7-9h-4l6-8h-3z" fill="#2f9468"/>
+  <rect x="29" y="43" width="6" height="8" rx="1" fill="#8b5a2b"/>
+  <path d="M32 3l2.1 4.6 5 .6-3.7 3.4 1 5-4.4-2.5-4.4 2.5 1-5-3.7-3.4 5-.6z" fill="#f3c64b"/>
+  <circle cx="26" cy="35" r="2" fill="#e04b55"/>
+  <circle cx="38" cy="38" r="2" fill="#f3c64b"/>
+  <circle cx="31" cy="26" r="1.8" fill="#e04b55"/>
+</svg>
