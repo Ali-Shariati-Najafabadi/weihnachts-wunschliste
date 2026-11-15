@@ -1,0 +1,16 @@
+{
+  "name": "weihnachts-wunschliste",
+  "version": "1.0.0",
+  "description": "Weihnachts-Wunschlisten teilen – ohne Server, ohne Tracking.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Ali Shariati Najafabadi",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "start": "node scripts/serve.mjs"
+  }
+}
