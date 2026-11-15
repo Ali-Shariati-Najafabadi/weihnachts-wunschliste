@@ -195,7 +195,7 @@ input[type="radio"], input[type="checkbox"] { width: 22px; height: 22px; accent-
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   box-shadow: var(--shadow); padding: 16px; margin-bottom: 14px;
 }
-.card > h3 { margin-bottom: 10px; }
+.card > h2, .card > h3 { margin-bottom: 10px; }
 .view-lists, .view-share, .view-welcome, .view-santa, .view-reveal { display: block; }
 .hero { padding: 6px 2px 14px; }
 .hero h2 { margin-bottom: 10px; font-size: 1.7rem; }
